@@ -1,18 +1,19 @@
-# Synchronous FIFO Design & Verification
+# Synchronous FIFO Design and Verification
 
-This project implements a **synchronous FIFO** using **Verilog HDL**.  
-The design includes read/write control logic and full/empty flag generation.  
-A testbench is used to verify the functionality through simulation.
+## Description
+Implemented a synchronous FIFO using Verilog HDL to store and retrieve data sequentially using a single clock.
 
 ## Features
-- FIFO write and read operations
-- Full and empty flag generation
-- Testbench-based functional verification
-- Simulation and waveform debugging
+- Read and write pointer logic
+- Full and empty flag detection
+- Parameterized FIFO depth and width
+- Testbench-based verification
 
 ## Tools Used
-- Cadence Xcelium
-- ModelSim
-
-## Language
 - Verilog HDL
+- ModelSim
+- Cadence Xcelium
+
+## Files
+fifo-design.v – FIFO RTL design  
+fifo-testbench.v – Testbench for verification
