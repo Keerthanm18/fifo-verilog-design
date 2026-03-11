@@ -1,4 +1,4 @@
-# Synchronous FIFO Design and Verification
+# Synchronous FIFO RTL Design and Verification
 
 ## Description
 Implemented a synchronous FIFO using Verilog HDL to store and retrieve data sequentially using a single clock.
