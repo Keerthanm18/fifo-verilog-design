@@ -63,7 +63,7 @@ always@(posedge clk_i)begin
 	end
 end
 end
-always@(wr_ptr or rd_ptr)begin
+	always@(*)begin
 if((wr_ptr==rd_ptr) && (wr_toggle==rd_toggle))begin
 	empty_o=1;
 end
@@ -74,4 +74,5 @@ end
 end
 
 endmodule
+
 
