@@ -55,6 +55,7 @@ $display("NO READ OPERATION");
 end
 end
 
+@(posedge clk_i)  
 rst_i = 1;
 #250;
 $finish;
@@ -67,3 +68,4 @@ $dumpvars(1);
 end
 
 endmodule
+
