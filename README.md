@@ -17,3 +17,4 @@ Implemented a synchronous FIFO using Verilog HDL to store and retrieve data sequ
 ## Files
 fifo-design.v – FIFO RTL design  
 fifo-testbench.v – Testbench for verification
+fifo-waveform-png - Successfull Read & Write Operation
